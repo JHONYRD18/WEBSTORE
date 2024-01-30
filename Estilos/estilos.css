@@ -81,13 +81,13 @@ header {
 }
 
 .logo {
-    width: 40rem;
-    margin: 1.5rem 0;
+    width: 50rem;
+    margin: 2rem 0;
 }
 
 @media(max-width: 768px) {
     .logo {
-        width: 30rem;
+        width: 35rem;
         margin: 1rem 0;
     }
 }
