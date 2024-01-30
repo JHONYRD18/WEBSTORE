@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODASTORE</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="Estilos/normalize.css">
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47e7bb8b2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo ropa.png" alt="Logo referente a una tienda ropa">
+        </div>
+    </header>
+
+    <nav class="navegación">
+        <a class="navegación__enlace navegación__enlace--activo" href="index.html">Inicio</a>
+        <a class="navegación__enlace" href="#">Novedades</a>
+        <a class="navegación__enlace" href="Nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>POLO MCLC</h1>
+
+        <div class="Polo">
+            <img src="img/IMG.ROPA/POLO2.jpg" alt="polomclc">
+            <div class="polo__contenido">
+                <p>Fusce at ligula tortor. Fusce blandit convallis augue vel 
+                    vulputate. Curabitur vel lacinia lacus. Nunc volutpat augue velit, 
+                    at congue nunc facilisis quis. Sed bibendum dui et turpis varius, sed 
+                    faucibus purus egestas. Phasellus non lorem mi. Integer vestibulum 
+                    lacinia nulla, ut faucibus metus consequat nec. In at dictum ex. Morbi 
+                    a ultricies arcu. Quisque viverra tincidunt enim, vel egestas lacus 
+                    vulputate sed. Nullam cursus nulla vitae varius euismod. Donec quis 
+                    diam nulla. Integer tempor ante mauris, eget fermentum ipsum dictum 
+                    quis. Maecenas finibus dictum orci, ac efficitur risus.</p>
+            
+                <form class="formulario">
+                    <select class="formulario_campo">
+                        <option disabled selected>-- Selecciona tu talla --</option>
+                        <option>Pequeña</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario_campo" type="number" placeholder="Cantidad" min="1" max="12">
+                    <input class="formulario_submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <p class="pie__texto">© 2023 - <b>Example MODASTORE</b> - Todos los Derechos Reservados. </p>
+    </footer>
+</body>
+
+</html>
