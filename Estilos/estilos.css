@@ -193,6 +193,10 @@ header {
     font-weight: bold;
 }
 
+.producto__nombre a {
+    color: var(--Blanco);
+}
+
 .producto__precio {
     font-size: 3em;
     color: var(--SecundarioOscuro);
